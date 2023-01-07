@@ -32,26 +32,8 @@ client.on('message', message => {
 async function runCompletion (message) {
     const completion = await openAi.createCompletion(({
         model: 'text-davinci-003',
-        promps: message,
+        prompt: message,
         max_tokens: 200,
     }))
     return completion?.data.choices[0].text;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
