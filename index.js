@@ -26,6 +26,8 @@ client.on('message', message => {
 
     if(message.body.startsWith('#')) {
         runCompletion(message?.body.substring(1)).then(result => message.reply(result));
+    } else {
+        message.reply("I am busy right now")
     }
 });
 

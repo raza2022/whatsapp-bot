@@ -3,16 +3,24 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "openai": "^3.2.1",
+    "qrcode-terminal": "^0.12.0",
+    "whatsapp-web.js": "^1.19.5"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/raza2022/whatsapp-bot.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "dotenv": "^16.0.3",
-    "openai": "^3.1.0",
-    "qrcode-terminal": "^0.12.0",
-    "whatsapp-web.js": "^1.18.4"
-  }
+  "bugs": {
+    "url": "https://github.com/raza2022/whatsapp-bot/issues"
+  },
+  "homepage": "https://github.com/raza2022/whatsapp-bot#readme"
 }
